@@ -1,0 +1,5 @@
+{{ with resources.Get "css/agemonia.css" }}
+  {{ with . | fingerprint "sha256" }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" />
+  {{ end }}
+{{ end }}

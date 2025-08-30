@@ -1,0 +1,18 @@
+body {
+    background-color: #E8E0B6;
+}
+
+.storybook .entry-number {
+    color: #C00;
+    font-size: 80%;
+    font-family: sans-serif;
+    vertical-align: middle;
+}
+
+
+img.icon {
+    display: inline;
+    height: 1em;
+    position: relative;
+    top: -3px;
+}
