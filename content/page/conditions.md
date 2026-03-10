@@ -4,17 +4,20 @@ date: 2026-03-10T00:00:00-00:00
 summary: 'All conditions (status effects) and their rules'
 ---
 
-## General Rules
+| # | | Condition | Gist |
+|---|---|-----------|------|
+| 1 | {{< condition "invisible" >}} | [Invisible](#1--invisible) | Can't be targeted by Enemies |
+| 2 | {{< condition "blessed" >}} | [Blessed](#2--blessed) | Roll 1 extra die on a check/attack |
+| 3 | {{< condition "bleeding" >}} | [Bleeding](#3--bleeding) | 1 damage at start of each turn |
+| 4 | {{< condition "slowed" >}} | [Slowed](#4--slowed) | 1 fewer movement point |
+| 5 | {{< condition "weakened" >}} | [Weakened](#5--weakened) | Reduced attack (see below) |
+| 6 | {{< condition "held" >}} | [Held](#6--held) | Can't move |
+| 7 | {{< condition "cursed" >}} | [Cursed](#7--cursed) | Spent stamina flips to wound side |
+| 8 | {{< condition "confused" >}} | [Confused](#8--confused) | Miss next action/attack |
+| 9 | {{< condition "stunned" >}} | [Stunned](#9--stunned) | Miss next action + maneuver (or turn) |
+| 10 | {{< condition "dominated" >}} | [Dominated](#10--dominated) | Damages nearest ally instead (see below) |
 
-- When a Hero gains a condition, place the corresponding Condition card on their Hero board. When a non-Hero Ally gains one, place it on their Ally card.
-- When an Enemy gains a condition, place the corresponding Condition token next to its Health Counter die.
-- Conditions on Enemies only affect what they can do **during their turn**. At all other times they can be ignored (e.g., they do not affect an Enemy's Provoke ability).
-- An Ally or Enemy may **not** have the same condition more than once at the same time.
-- An Ally or Enemy may **not** have more than two conditions at the same time. If a third condition is gained, discard the condition with the **lowest condition number**.
-- If a condition is gained during a turn, it takes effect for the remainder of that turn if possible.
-- Conditions are removed at the end of a scenario.
-
-## Conditions
+## Detailed Conditions
 
 ### {{< condition "invisible" >}} #1 — Invisible *(Positive, Cards Only)*
 
@@ -95,18 +98,3 @@ Affected Ally
 
 Affected Enemy
 : The next time the Enemy would perform their attack, they do not attack. Instead, the closest other Enemy of your choice within range 2 suffers 2 damage. Once they have missed their attack, discard. The Enemy still moves as if it was attacking normally.
-
-## Quick Reference
-
-| # | | Condition | Pos/Neg | Affects Enemies? |
-|---|---|-----------|---------|------------------|
-| 1 | {{< condition "invisible" >}} | Invisible | Positive | No |
-| 2 | {{< condition "blessed" >}} | Blessed | Positive | No |
-| 3 | {{< condition "bleeding" >}} | Bleeding | Negative | Yes |
-| 4 | {{< condition "slowed" >}} | Slowed | Negative | Yes |
-| 5 | {{< condition "weakened" >}} | Weakened | Negative | Yes |
-| 6 | {{< condition "held" >}} | Held | Negative | Yes |
-| 7 | {{< condition "cursed" >}} | Cursed | Negative | No |
-| 8 | {{< condition "confused" >}} | Confused | Negative | Yes |
-| 9 | {{< condition "stunned" >}} | Stunned | Negative | Yes |
-| 10 | {{< condition "dominated" >}} | Dominated | Negative | Yes |
