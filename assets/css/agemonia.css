@@ -16,3 +16,8 @@ img.icon {
     position: relative;
     top: -3px;
 }
+
+img.condition-icon {
+    height: 1.8em;
+    top: -5px;
+}
