@@ -16,6 +16,7 @@ summary: 'All conditions (status effects) and their rules'
 | {{< condition "confused" >}} | [Confused](#confused) | Miss next action/attack |
 | {{< condition "stunned" >}} | [Stunned](#stunned) | Miss next action + maneuver (or turn) |
 | {{< condition "dominated" >}} | [Dominated](#dominated) | Damages nearest ally instead (see below) |
+{class="conditions"}
 
 ## Detailed Conditions
 

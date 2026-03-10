@@ -17,7 +17,16 @@ img.icon {
     top: -3px;
 }
 
+table.conditions td:first-child {
+    background-color: #E8E0B6;
+}
+
+table.conditions th:first-child {
+    background-color: #E8E0B6;
+}
+
 img.condition-icon {
-    height: 1.8em;
-    top: -5px;
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
 }
