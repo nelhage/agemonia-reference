@@ -16,3 +16,17 @@ img.icon {
     position: relative;
     top: -3px;
 }
+
+table.conditions td:first-child {
+    background-color: #E8E0B6;
+}
+
+table.conditions th:first-child {
+    background-color: #E8E0B6;
+}
+
+img.condition-icon {
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+}
