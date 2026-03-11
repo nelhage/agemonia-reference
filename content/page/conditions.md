@@ -1,7 +1,7 @@
 ---
-title: 'Conditions Reference'
+title: 'Conditions'
 date: 2026-03-10T00:00:00-00:00
-summary: 'All conditions (status effects) and their rules'
+summary: 'List of conditions and their rules'
 ---
 
 | | Condition | Gist |
@@ -26,7 +26,7 @@ Affected Ally
 : You may not be targeted by an Enemy attack. You may still be attacked by an area attack targeting another Ally. If you attack or an Enemy is within range 1, discard.
 
 Affected Enemy
-: — (Does not affect Enemies)
+: —
 
 ### {{< condition "blessed" >}} Blessed
 
@@ -34,7 +34,7 @@ Affected Ally
 : After any one ability check or attack roll, you may roll 1 more die and add its result. If you do, discard.
 
 Affected Enemy
-: — (Does not affect Enemies)
+: —
 
 ### {{< condition "bleeding" >}} Bleeding
 
@@ -71,10 +71,10 @@ Affected Enemy
 ### {{< condition "cursed" >}} Cursed
 
 Affected Ally
-: Next time your Hero performs an attack action, any {{< stamina >}} you spend during that action (including the action's cost) is flipped to its wound side. After the attack, discard.
+: Next time your Hero performs an attack action, any stamina you spend during that action (including the action's cost) is flipped to its wound side. After the attack, discard.
 
 Affected Enemy
-: — (Does not affect Enemies)
+: —
 
 ### {{< condition "confused" >}} Confused
 
